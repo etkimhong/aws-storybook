@@ -3,7 +3,9 @@ import Image from "next/image";
 export default function Home() {
   return (
    <>
-    <h1>hello word</h1>
+    <div className="min-h-full max-w-full bg-green-600 ">
+      <h1>hello!</h1>
+    </div>
    </>
   );
 }
