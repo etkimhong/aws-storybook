@@ -31,7 +31,7 @@ jobs:
         # This command starts Storybook in the background
 
       - name: Wait for Storybook to be available
-        run: npx wait-on http://192.168.100.9:6006
+        run: npx wait-on http://127.0.0.1:6006
 
       - name: Run tests with coverage
         run: yarn test-storybook --coverage
