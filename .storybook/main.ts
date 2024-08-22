@@ -8,7 +8,7 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-coverage",
+    '@storybook/addon-coverage',
   ],
   framework: {
     name: "@storybook/nextjs",
